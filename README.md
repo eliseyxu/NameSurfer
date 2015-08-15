@@ -13,7 +13,7 @@ NameSurfer: Main program class that ties together the application. It creates th
 
 Person: Each Person object contains the information for a given name (name, gender, popularity rank).
 
-NameDatabase: This class tracks all the information (e.g., popularity rank data) stored in the data files but is separate from the user interface. It is responsible for reading in the data and locating the data associated with a particular name and gender.
+NameDatabase: This class tracks all the information (e.g., popularity rank data) stored in the data files but is separate from the user interface. It is responsible for reading in the data and locating the data associated with a particular name and gender. (The data reside in a "ranks.txt" file, not included here.)
 
 NameGraph: A graphical canvas (subclass of GCanvas) that displays the graph of the various names.
 
